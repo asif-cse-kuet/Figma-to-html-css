@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: fit-content;
+    box-sizing: border-box;
+    /* padding-bottom: 10px; */
+    flex-wrap: wrap;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* overflow-y: hidden; */
+}
+
+#header{
+    display:flex;
+    height: fit-content;
+    align-items: center;
+    flex-direction: row;
+    margin: 0px;
+    padding: 3px;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 1px 1px 0px rgba(70, 71, 70, 0.146);
+    flex-wrap: wrap;
+}
+
+#leftheader {
+    display: flex;
+    margin-right: 2%;
+    margin-left: 6%;
+    align-items: center; /* Vertically align the contents */
+}
+
+#rightheader {
+    display: flex;
+    justify-content: center;
+    margin-right: 6%;
+
+}
+
+#logo {
+    margin-right: 50px; /* Add spacing between logo and pagesection */
+}
+
+#pagesection {
+    display: flex;
+    margin-left: 70px;
+    align-items: right; /* Vertically align the links */
+}
+
+#Login{
+    border-radius: 10px;
+    border: 1px solid var(--text, #181F1B);
+    background:white ;
+    font-weight: bold;
+    margin: 10px;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+#Signup{
+    border-radius: 10px;
+    border: 0px solid var(--text, #FFF);
+    background:#58BF73;
+    color: white;
+    font-weight: bold;
+    margin: 8px;
+    padding: 13px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+button:hover{
+    box-shadow: 0px 1px 2px 2px rgba(2, 53, 2, 0.753);
+}
+
+
+/* Add styles for the logo object */
+.logo {
+    width: 165px;
+    height: fit-content;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#pagesection a {
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 50px; /* Add spacing between links */
+}
+
+#pagesection a.active {
+    color: #1c8b3a; /* Active link color (green) */
+}
+
+#pagesection a:hover {
+    color: #1c8b3a; /* Link color on hover (green) */
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d9eeface;
+    min-width: fit-content;
+    padding: 15px;
+    border-radius: 15px;
+    flex-direction: column;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display:block;
+}
+
+
+.arrow{
+    position: absolute;
+    margin-left: 2px;
+    /* Increase arrow size */
+    font-size: 1px;
+    margin-top: 7px;
+}
+

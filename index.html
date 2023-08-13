@@ -1,0 +1,509 @@
+<!-- Assuming We Don't have server side access. So, moduler style is not possiable in this assignment. Otherwise we could saperate every part of the website into different module and could render them on the index.html file, which is the best practice for senior developer -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/section1.css">
+    <link rel="stylesheet" href="CSS/section2.css">
+    <link rel="stylesheet" href="CSS/section3.css">
+    <title>Assignment Exabyting</title>
+</head>
+
+<body>
+
+    <!-- Navbar part of the site -->
+    <div id="header">
+        <!-- Left Subdiv -->
+        <div id="leftheader">
+            <div id="logo">
+                <object type="image/svg+xml" data="Asset/logo.svg" class="logo"></object>
+            </div>
+
+            <!-- Products, About US, Contacts -->
+            <div id="pagesection">
+                <div class="dropdown">
+                    <a href="#" class="active">Products<span class="arrow"><svg width="8" height="6" viewBox="0 0 10 7"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.91016 6.35825C5.15625 6.60434 5.56641 6.60434 5.8125 6.35825L9.53125 2.6395C9.80469 2.36606 9.80469 1.9559 9.53125 1.70981L8.92969 1.0809C8.65625 0.834808 8.24609 0.834808 8 1.0809L5.34766 3.73325L2.72266 1.0809C2.47656 0.834808 2.06641 0.834808 1.79297 1.0809L1.19141 1.70981C0.917969 1.9559 0.917969 2.36606 1.19141 2.6395L4.91016 6.35825Z"
+                                    fill="#1F8E3D" />
+                            </svg></span></a>
+
+                    <div class="dropdown-content">
+                        <a href="#"><button>Item 1</button></a>
+                        <a href="#"><button>Item 2</button></a>
+                        <a href="#"><button>Item 3</button></a>
+                    </div>
+                </div>
+                <a href="#">About Us</a>
+                <a href="#">Contacts</a>
+            </div>
+        </div>
+        <!-- Right Subdiv -->
+        <div id="rightheader">
+            <button id="Signup">Get Started</button>
+            <button id="Login">Login</button>
+        </div>
+    </div> <!-- End of Navbar -->
+
+
+    <!--SECTION 1 : Main container div with sub divs -->
+    <div id="section1" class="container1">
+        <!-- Left Side -->
+        <div class="left-subdiv">
+            <p class="line1">Lore <strong>ipsum.</strong> <br>Dolor <strong>sit.</strong></p>
+            <p class="line2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatu. Sed ut perspiciatis unde omnis iste natus error.</p>
+            <div>
+                <button class="viverra">Viverra orci sagittis</button>
+                <button class="demo"> <svg xmlns="http://www.w3.org/2000/svg" width="35" height="17"
+                        viewBox="-8 0 24 24" fill="none">
+                        <path
+                            d="M12 0C5.37259 0 0 5.37257 0 12C0 18.6273 5.37259 23.9999 12 23.9999C18.6274 23.9999 24 18.6273 24 12C23.993 5.37553 18.6245 0.00708146 12 0ZM17.0537 12.3823C16.9709 12.5483 16.8366 12.683 16.6708 12.7662C16.6696 12.7667 16.6689 12.7679 16.6689 12.7693C16.6689 12.7706 16.6681 12.7718 16.6669 12.7723L9.81172 16.2C9.38824 16.4116 8.87345 16.2398 8.66181 15.8164C8.60164 15.696 8.57065 15.5631 8.57141 15.4285V8.57143C8.57121 8.09803 8.95476 7.71412 9.42817 7.71387C9.56131 7.71382 9.69264 7.74476 9.81172 7.80427L16.6689 11.2329C17.0925 11.444 17.2649 11.9586 17.0537 12.3823Z"
+                            fill="white" />
+                    </svg> Get a demo
+                </button>
+            </div>
+        </div>
+        <!-- Right Side -->
+        <div class="right-subdiv">
+            <!-- SVG content here -->
+            <img src="Asset/Rectangle.png" width="100%" height="100%" alt="Rectangle341">
+        </div>
+    </div>
+    <!-- End of Section 1 -->
+
+
+
+    <!-- Section 2 Start -->
+    <div id="section2" class="section2container">
+        <div id="ut">
+            <p>Ut enim ad minima veniam, quis nostrum <br> exercitationem ullam corporis suscipit</p>
+        </div>
+
+        <div id="table1">
+            <table style="border-collapse: collapse; width: 100%; font-size: medium;">
+                <thead style="background-color: #E3E3E3; opacity: 0.8; ">
+                    <tr>
+                        <th style="padding: 20px; border-radius: 6px 0px 0px 6px; text-align: center;">
+                            Source
+                        </th>
+                        <th style="padding: 20px; text-align: center;">
+                            Ad
+                        </th>
+                        <th style="padding: 20px; text-align: center;">
+                            Cost
+                        </th>
+                        <th style="padding: 20px; text-align: center;">
+                            Sales
+                        </th>
+                        <th style="padding: 20px; text-align: center;">
+                            First time customer
+                        </th>
+                        <th style="padding: 20px; text-align: center;">
+                            Revenue
+                        </th>
+                        <th style="padding: 20px; text-align: center;">
+                            ROAS
+                        </th>
+                        <th style="padding: 20px; text-align: center;">
+                            CAC
+                        </th>
+                        <th style="padding: 20px; border-radius: 0px 6px 6px 0px; text-align: center;">
+                            F.T.ROAS
+                        </th>
+                    </tr>
+                </thead>
+                <tbody style="border: 2px solid white;">
+                    <!-- Table rows for the body -->
+                    <tr style="background-color: #B4ECD2; text-align: center;">
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">Youtube</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">Male_18+_UGC_Video</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$2,567.00</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">120</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">90</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$10,800.00</td>
+                        <td
+                            style="border: 2px solid white; font-weight: 750; background-color: #93D1B5; padding: 10px; border-radius: 6px;">
+                            4.21</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$28.52</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">3.16</td>
+                    </tr>
+                    <tr style="background-color: #B4ECD2; text-align: center;">
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">Adwords</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">US_Generic_Search</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$1,233.00</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">98</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">71</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$5,880.00</td>
+                        <td
+                            style="border: 2px solid white; font-weight: 750; background-color: #93D1B5; padding: 10px; border-radius: 6px;">
+                            4.77</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$17.48</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">3.43</td>
+                    </tr>
+                    <tr style="background-color: #B4ECD2; text-align: center;">
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">Adwords</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">SKU2343_shoppong</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$2,567.00</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">120</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">90</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$10,800.00</td>
+                        <td
+                            style="border: 2px solid white; font-weight: 750; background-color: #93D1B5; padding: 10px; border-radius: 6px;">
+                            4.77</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$28.52</td>
+                        <td
+                            style="border: 2px solid white; background-color: #93D1B5; padding: 10px; border-radius: 6px;">
+                            3.16</td>
+                    </tr>
+                    <tr style="background-color: #B4ECD2; text-align: center;">
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">Facebook</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">
+                            All_25+_Static_split_screen</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$5,400.00</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">145</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">111</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$11,600.00</td>
+                        <td style="border: 2px solid white; font-weight: 750; padding: 20px; border-radius: 6px;">2.15
+                        </td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$48.54</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">1.65</td>
+                    </tr>
+                    <tr style="background-color: #B4ECD2; text-align: center;">
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">Instagram</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">
+                            W_25+_Static_split_screen</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$2,567.00</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">120</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">90</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$10,800.00</td>
+                        <td
+                            style="border: 2px solid white; font-weight: 750; background-color: #64B992; padding: 10px; border-radius: 6px;">
+                            4.41</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$28.52</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">3.16</td>
+                    </tr>
+                    <tr style="background-color: #B4ECD2; text-align: center;">
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">Ticktok</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">UGS_video_2</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$3,100.00</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">120</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">110</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$7,080.00</td>
+                        <td style="border: 2px solid white; font-weight: 750; padding: 20px; border-radius: 6px;">2.28
+                        </td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">$28.14</td>
+                        <td style="border: 2px solid white; padding: 20px; border-radius: 6px;">2.10</td>
+                    </tr> <!-- Add more rows as needed -->
+                </tbody>
+                <!-- Add tfoot if needed -->
+            </table>
+        </div>
+
+        <!-- Socials -->
+        <div style="display: flex; margin-top: 60px; justify-content: space-between;">
+            <div
+                style="display:flex; flex-direction:column; align-item:center; flex: 1; padding-right: 8%; justify-content:center">
+                <p class="commonline">Sed ut perspiciatis unde omnis iste natus error. <strong>Try out!</strong></p>
+                <p class="line2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore ullamco esse cillium</p>
+                <button
+                    style="background-color: #58BF73; border: 0px; color: white; font-weight: bold; border-radius: 8px; padding-left: 8%; padding-right: 8%; padding-top:3%; padding-bottom:3%; width: fit-content;">Try
+                    out now!</button>
+            </div>
+            <div style="flex: 1.1; display:flex; justify-content:center;">
+                <img src="Asset/social.png" width="80%" height="100%" alt="social">
+            </div>
+
+        </div>
+
+        <div style="display: flex; margin: 80px; justify-content: center;">
+            <img src="Asset/allof3.png" width="100%" height="fit-content" alt="socials" class="src">
+        </div>
+
+        <!-- Nemo enim -->
+        <div style="display: flex; margin-top: 40px; justify-content: space-between;">
+            <div
+                style="display:flex; flex-direction:column; align-item:center; flex: 1; padding-right: 8%; justify-content:center">
+                <p class="commonline">Nemo enim ipsam quia </strong></p>
+                <p class="line2">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                    velit, sed qu nemo enim</p>
+                <!-- Chartleft items -->
+                <div style="display: flex; flex-direction: column; width: 75%; justify-content: left;">
+                    <img src="Asset/chartleft1.png" alt="chartleft1">
+                    <img src="Asset/chartleft2.png" alt="chartleft1">
+                    <img src="Asset/chartleft3.png" alt="chartleft1">
+                    <img src="Asset/chartleft4.png" alt="chartleft1">
+                </div>
+
+                <button
+                    style="background-color: #58BF73; border: 0px; color: white; font-weight: bold; border-radius: 8px; padding-left: 8%; padding-right: 8%; padding-top:3%; padding-bottom:3%; width: fit-content;">Try
+                    out now!</button>
+            </div>
+            <div style="flex: 1.2; display:flex; justify-content:center; align-items: center; padding-top: 5%;">
+                <img src="Asset/chart.png" width="100%" height="80%" alt="Nemo enim">
+            </div>
+
+        </div>
+
+        <div id="drawchart"
+            style="display: flex; flex-direction:column; justify-items: center; margin-top: 100px; align-items: center;">
+            <div>
+                <p id="ut2">Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+                <p class="line2center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore </p>
+            </div>
+            <div style="display: flex; flex-direction:column; justify-items: center; align-items: center;">
+                <img src="Asset/drawline.png" width="100%" height="auto" alt="drawlinechart">
+            </div>
+        </div>
+
+
+        <!-- Checking -->
+        <div style="display: flex; margin: 40px; justify-content: space-around;">
+            <div style="flex: 1; display:flex; flex-direction:column; text-align: center; justify-content:center">
+                <p class="commonline2">Facebook data </strong></p>
+                <!-- Chartleft items -->
+                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <img src="Asset/fbdata.png" width="100%" height="auto" alt="chartleft1">
+                </div>
+            </div>
+
+            <div
+                style="flex: 1; display:flex; justify-content:center; align-items: center; text-align: center; flex-direction: column;">
+                <p class="commonline2">Loremipsum data </strong></p>
+                <img src="Asset/logoipsumdata.png" width="100%" height="auto" alt="Nemo enim">
+            </div>
+        </div>
+
+        <div
+            style="flex: 1; margin: 45px; margin-left: 60px; display:flex; justify-content:center; align-items: center; text-align: center; flex-direction: column;">
+            <img src="Asset/Consectetur.png" width="100%" height="auto" alt="Nemo enim">
+            <p id="ut3">Ullamcorper morbi tincidunt ornare massa eget. Quam viverra orci sagittis eu volutpat odio</p>
+            <p class="line2center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore </p>
+            <div style="padding: 40px;">
+                <img src="Asset/3icon.png" width="70%" height="auto" alt="Nemo enim">
+            </div>
+
+            <div
+                style="display: flex; width: 100%; height: auto; flex-wrap: wrap; justify-content: center; align-items: center;">
+                <table id="tb2" style="border-collapse: collapse; width: 100%; font-size: medium;">
+                    <thead>
+                        <tr>
+                            <th class="tbhead2start">Data</th>
+                            <th class="tb2header">Users</th>
+                            <th class="tb2header">Week 0</th>
+                            <th class="tb2header">Week 1</th>
+                            <th class="tb2header">Week 2</th>
+                            <th class="tb2header">Week 3</th>
+                            <th class="tb2header">Week 4</th>
+                            <th class="tb2header">Week 5</th>
+                            <th class="tb2header ">Week 6</th>
+                            <th class="tb2header">Week 7</th>
+                            <th class="tb2header">Week 8</th>
+                            <th class="tb2header">Week 9</th>
+                            <th class="tbhead2end">Week 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="tr1">
+                            <td class="celltype1">06-17 - 06-23</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor3">$390</td>
+                            <td class="celltype1 tablecolor3">$390</td>
+                            <td class="celltype1 tablecolor3">$390</td>
+                            <td class="celltype1 ">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                        </tr>
+                        <tr id="tr2">
+                            <td class="celltype1">06-24 - 06-30</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor2">$390</td>
+                            <td class="celltype1 tablecolor2">$390</td>
+                            <td class="celltype1 tablecolor2">$390</td>
+                            <td class="celltype1 tablecolor2">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">&nbsp;</td>
+                        </tr>
+                        <tr id="tr3">
+                            <td class="celltype1">06-31- 07-06</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor3">$390</td>
+                            <td class="celltype1 tablecolor3">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                        </tr>
+                        <tr id="tr4">
+                            <td class="celltype1">07-07 - 07-14</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                        </tr>
+                        <tr id="tr5">
+                            <td class="celltype1">07-15 - 07-21</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor1">$390</td>
+                            <td class="celltype1 tablecolor2">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                        </tr>
+                        <tr id="tr6">
+                            <td class="celltype1">07-22 - 07-28</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1 tablecolor3">$390</td>
+                            <td class="celltype1 tablecolor3">$390</td>
+                            <td class="celltype1 tablecolor3">$390</td>
+                            <td class="celltype1 tablecolor2">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                        </tr>
+                        <tr id="tr7">
+                            <td class="celltype1">07-29 - 08-04</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1 tablecolor2">$390</td>
+                            <td class="celltype1 tablecolor2">$390</td>
+                            <td class="celltype1 tablecolor2">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">$390</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                            <td class="celltype1">&nbsp;</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <!-- Before Footer -->
+        <div
+            style="display: flex; margin-left: 50px; margin-top: 60px; margin-bottom: 80px; justify-content: space-around;">
+            <div
+                style="flex: 1.5; display:flex; flex-direction:column; align-items:center; padding-right: 0%; justify-content:center">
+                <p class="commonline3">Ullamcorper morbi tincidunt ornare massa eget</strong></p>
+                <p class="line3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore ullamco esse cillium</p>
+
+            </div>
+            <div style="flex: 1; display:flex; justify-content:center; align-items: center;">
+                <button
+                    style="background-color: #58BF73; border: 0px; color: white; font-weight: bold; border-radius: 8px; padding-left: 8%; padding-right: 8%; padding-top:3%; padding-bottom:3%;  margin-left: 60px; font-size: 20px;">Apply</button>
+            </div>
+
+        </div>
+    </div>
+    <!-- End of Section 2 -->
+    
+    <!-- <footer class="footer">
+        <div footerdiv1>
+            <p>Hello 1</p>
+            <p>Hello 2000</p>
+        </div>
+        <div footerdiv1>
+            <p>Hello 1</p>
+            <p>Hello 2000</p>
+        </div>
+        <div footerdiv1>
+            <p>Hello 1</p>
+            <p>Hello 2000</p>
+        </div>
+        <div footerdiv1>
+            <img src="Asset/horizontaldivider.png" alt="">
+        </div>
+        <div footerdiv1>
+            <p>Hello 1</p>
+            <p>Hello 2000</p>
+        </div>
+    </footer> -->
+
+    <div class="footer">
+        <!-- Footer columns -->
+        <div class="footer-columns">
+            <!-- Column 1 -->
+            <div class="footer-column">
+                <span class="bold-text">Text 1</span>
+                <span>Text 2</span>
+                <span> 3</span>
+                <span> 4</span>
+            </div>
+            
+            <!-- Column 2 -->
+            <div class="footer-column">
+                <span class="bold-text">Text 1</span>
+                <span>Text 2</span>
+                <span>Text 3</span>
+                <span>Text 4</span>
+            </div>
+
+            <!-- Column 3 (Bold first text) -->
+            <div class="footer-column">
+                <span class="bold-text">Bold Text 1</span>
+                <span>Text 2</span>
+                <span>Text 3</span>
+                <span>Text 4</span>
+            </div>
+            
+            <!-- Divider between columns 3 and 4 -->
+            <div class="divider"></div>
+
+            <!-- Column 4 (Logo at the top) -->
+            <div class="footer-column">
+                <img src="Asset/blacklogo.png" alt="Logo" class="logo">
+                <span class="footer-column2"><strong> Tristique senectus et netus et malesuada fames</strong></span>
+                <span class="footer-column3">©2023 Logoipsum. All rights reserved</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
